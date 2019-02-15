@@ -41,14 +41,14 @@ return [
     ],
 
     'facebook' => [
-        'client_id' => '825900931083601',
-        'client_secret' => '19af61fad5408a1a06f38d982bcbfced',
+        'client_id' => env('FACEBOOK_ID'),
+        'client_secret' => env('FACEBOOK_SECRET'),
         'redirect' => 'https://dhammahelper.com/callback',
     ],
 
     'google' => [
-        'client_id'     => '95950187740-frnocr29kpkibfergf12jmm3evers045.apps.googleusercontent.com',
-        'client_secret' => 'DxtffpNHPQEnp1OqdiRZE8MD',
+        'client_id'     => env('GOOGLE_ID'),
+        'client_secret' => env('GOOGLE_SECRET'),
         'redirect'      => 'https://dhammahelper.com/google'
     ],
 
