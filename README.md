@@ -24,7 +24,7 @@ At the end of every meditation, the number of minutes meditated is logged to the
 
 #### Account Metrics
 
-At the bottom of the home page, the app displays the user's: average length of meditation, average number of minutes meditated per day since joining, highest number of days in a row meditated, and current number of days in a row meditated. It also displayed the number of minutes meditated per day in bar graph form. The page automatically displays the graph for the current week, but the user can toggle back to previous weeks, as well.
+At the bottom of the home page, the app displays the user's: average length of meditation, average number of minutes meditated per day since joining, highest number of days in a row meditated, and current number of days in a row meditated. It also displays the number of minutes meditated per day in bar graph form. The page automatically displays the graph for the current week, but the user can toggle back to previous weeks, as well.
 
 #### Friends and Sharing
 
