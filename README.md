@@ -3,7 +3,7 @@
 
 ### Hosting
 
-This application is hosted through inmotion at the following address: <a href="https://dhammahelper.com" target="_blank">https://dhammahelper.com</a>. It is configured to always direct to https, since <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia" target="_blank">MediaDevices.getUserMedia</a> (which WebAudioRecorder relies on to get microphone input) only works in a secure context. 
+This application is hosted through inmotion at the following address: <a href="https://dhammahelper.com">https://dhammahelper.com</a>. It is configured to always direct to https, since <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia">MediaDevices.getUserMedia</a> (which WebAudioRecorder relies on to get microphone input) only works in a secure context. 
 
 
 ### Features/How to Use
@@ -39,20 +39,20 @@ Whenever a user receives a friend request or has a friend request accepted or de
 
 This is a Laravel project. As such, it relies heavily on Bootstrap and MySQL. I made use of the Storage facade in storing user-recorded audio files. I also used the Laravel Socialite package to implement OAuth2 Facebook and Google logins. I used Laravel Collective's Form and HTML package to create forms in the blade-templated views.
 
-On the front end, I used higuma's <a href="https://github.com/higuma/web-audio-recorder-js" target="_blank">WebAudioRecorder.js</a> to record and encode audio input from the user. I adapted it to only encode to MP3, since WAV files are too large to be sent to the server, although in the future I intend to add an Ogg encoding option for browsers that don't support MP3. 
+On the front end, I used higuma's <a href="https://github.com/higuma/web-audio-recorder-js">WebAudioRecorder.js</a> to record and encode audio input from the user. I adapted it to only encode to MP3, since WAV files are too large to be sent to the server, although in the future I intend to add an Ogg encoding option for browsers that don't support MP3. 
 
-The graph of minutes meditated per day displayed on the home page is created with <a href="https://www.chartjs.org/" target="_blank">Chart.js</a>.
+The graph of minutes meditated per day displayed on the home page is created with <a href="https://www.chartjs.org/">Chart.js</a>.
 
-I used a <a href="https://www.w3schools.com/html/html5_webworkers.asp" target="_blank">Web Worker</a> to sound the gong three times at the end of each meditation, since the gong chimes are spaced several seconds apart and the thread was blocking other features.
+I used a <a href="https://www.w3schools.com/html/html5_webworkers.asp">Web Worker</a> to sound the gong three times at the end of each meditation, since the gong chimes are spaced several seconds apart and the thread was blocking other features.
 
 
 ### Other Credits
 
-Traversy Media's <a href="https://www.youtube.com/playlist?list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-" target="_blank">Laravel from Scratch</a> series was extremely helpful for me when I was first setting up and configuring the app.
+Traversy Media's <a href="https://www.youtube.com/playlist?list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-">Laravel from Scratch</a> series was extremely helpful for me when I was first setting up and configuring the app.
 
-The loading circle that displays while account metrics are loading was inspired by this <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5" target="_blank">example</a> from W3 Schools.
+The loading circle that displays while account metrics are loading was inspired by this <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5">example</a> from W3 Schools.
 
-The animated dots that indicate a recording is in progress were adapted from this <a href="https://codepen.io/chrisnager/pen/yfwgE" target="_blank">CodePen</a>.
+The animated dots that indicate a recording is in progress were adapted from this <a href="https://codepen.io/chrisnager/pen/yfwgE">CodePen</a>.
 
-The FadeIn/FadeOut effects I use were adapted from this <a href="http://jsfiddle.net/TH2dn/606/" target="_blank">JSFiddle</a>.
+The FadeIn/FadeOut effects I use were adapted from this <a href="http://jsfiddle.net/TH2dn/606/">JSFiddle</a>.
 
