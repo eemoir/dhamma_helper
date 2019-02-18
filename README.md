@@ -18,6 +18,8 @@ There are two different meditation timers available: a timer in which the user s
 
 If the user is logged in, their preference for the number of minutes they would like to meditate, or the upper and lower values of the time window, is stored on the server. If they are not logged in, these preferences are stored in LocalStorage.
 
+Once the meditation period has finished, a gong will sound three times, at four-second intervals. The user needs to click "Finish Meditation" in order for the meditation session to be recorded. If more than a minute passes without user input after the meditation has finished, the timer will reset back to the beginning and the meditation session will not be logged.
+
 #### Meditation Journal
 
 At the end of every meditation, the number of minutes meditated is logged to the server. The user can then add a written journal entry to be associated with this sit. She can also make an audio diary recording of up to two minutes. The entry can be added or edited and/or the audio diary entry can be added, deleted, or overwritten for up to 24 hours after a meditation, at which point the entry becomes fixed. Old entries can be viewed or listened to at any time in the user's meditation log. If the "Share this entry with friends" checkbox at the bottom of the form remains checked, any of the user's friends will be able to view the entry and listen to the recording in their friend timeline. (Even if the entry is not shared, friends will still be able to see the number of minutes the user meditated.)
